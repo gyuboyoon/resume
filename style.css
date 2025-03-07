@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact p,
+.about p {
+  margin-left: 20px;
+}
+
+.contact p a {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+*/
+
+
+/* 전체 컨테이너 스타일 */
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* 프로필 사진 섹션 */
+.photo {
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+.photo img {
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  width: 150px;
+  height: 150px;
+}
+
+/* Contact 정보 스타일 */
+.contact {
+  flex: 2 1 300px;
+  text-align: left;
+}
+
+.contact h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.contact a {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* About Me 섹션 스타일 */
+.about {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.about h3 {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .about p {
+    text-align: left;
+  }
+}
