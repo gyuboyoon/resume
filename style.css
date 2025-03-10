@@ -131,7 +131,9 @@ h2 {
   margin-bottom: 15px;
 }
 
-.experience-details h4 {
+.experience-details h4,
+.education h4,
+.certification h4 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.3rem;
@@ -270,17 +272,44 @@ footer {
 .quote-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* 선과 텍스트 간격 */
+  gap: 10px;
 }
 
 .quote-line {
-  flex-grow: 1; /* 선을 가능한 길게 확장 */
-  height: 1px; /* 선 두께 */
-  background-color: #d1d1d1; /* 선 색상 */
+  flex-grow: 1;
+  height: 1px;
+  background-color: #d1d1d1;
 }
 
 .quote-text {
-  font-style: italic; /* 기울임꼴 */
-  color: #7d848e; /* 글자 색상 */
-  font-size: 16px; /* 글자 크기 */
+  font-style: italic;
+  color: #7d848e;
+  font-size: 16px;
+}
+
+/* section {
+  margin-bottom: 1rem;
+} */
+
+.education .item {
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin-left: 5px;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.education .date,
+.education .major {
+  margin-left: 1.5rem;
+}
+
+.education .major {
+  font-size: 1.2rem;
+}
+
+.certification .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
