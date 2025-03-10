@@ -54,7 +54,7 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 3px solid #333638;
+  border: 3px solid #414141;
 }
 
 .intro-text {
@@ -94,15 +94,27 @@ h2 {
   font-weight: 700;
 }
 
-.experience-logo {
+.experience-logo,
+.project-info {
   width: 25%;
   margin-left: 5px;
 }
 
-.experience-logo img {
+.experience-logo img,
+.project-logo {
   width: 80px;
   height: 80px;
   border-radius: 8px;
+}
+
+.site-link {
+  margin-top: 5px;
+}
+
+.github-logo,
+.web-logo {
+  width: 25px;
+  height: 25px;
 }
 
 .works-detail {
@@ -113,6 +125,10 @@ h2 {
 
 .experience-details {
   flex: 1;
+}
+
+.experience-details ul {
+  margin-bottom: 15px;
 }
 
 .experience-details h4 {
