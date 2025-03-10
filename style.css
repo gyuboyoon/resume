@@ -204,15 +204,6 @@ li {
   /* list-style: disc; */
 }
 
-.contact a {
-  color: white;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
 /*ddddd*/
 
 .intro-container {
@@ -266,9 +257,13 @@ footer {
 .contact a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
 }
 
 .contact a:hover {
   text-decoration: underline;
+}
+.Copyright {
+  font-size: 0.8rem;
 }
