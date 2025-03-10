@@ -148,7 +148,6 @@ h2 {
   color: #888;
   margin-bottom: 1rem;
   display: flex;
-  flex-direction: row-reverse;
 }
 
 .company-work {
@@ -266,4 +265,22 @@ footer {
 }
 .Copyright {
   font-size: 0.8rem;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 선과 텍스트 간격 */
+}
+
+.quote-line {
+  flex-grow: 1; /* 선을 가능한 길게 확장 */
+  height: 1px; /* 선 두께 */
+  background-color: #d1d1d1; /* 선 색상 */
+}
+
+.quote-text {
+  font-style: italic; /* 기울임꼴 */
+  color: #7d848e; /* 글자 색상 */
+  font-size: 16px; /* 글자 크기 */
 }
