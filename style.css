@@ -204,13 +204,6 @@ li {
   /* list-style: disc; */
 }
 
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #343a40;
-  color: white;
-}
-
 .contact a {
   color: white;
   text-decoration: none;
@@ -227,10 +220,6 @@ footer {
   align-items: center;
   gap: 2rem;
   margin: auto;
-}
-
-section {
-  margin-bottom: 2rem;
 }
 
 .about-container {
