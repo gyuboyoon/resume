@@ -334,3 +334,7 @@ footer {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+.tw_experience li {
+  padding: 0.2rem 0;
+}
